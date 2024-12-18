@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Proyectos</title>
+</head>
+<body class="flex flex-col min-h-screen">
+
+        <!-- Header -->
+        <header class='shadow-md font-sans tracking-wide relative z-50'>
+            <div class='mt-7 ml-12 mr-12 flex flex-wrap items-center justify-between gap-4 px-10 py-4 bg-white min-h-[70px]'>
+                <a href="/src/index.html" class="flex items-center"> 
+                    <img src="../../img/Foto Yo.jpg" alt="logo" class="w-10"> 
+                    <span class="ml-2 text-[18px] font-bold">Mario Orozco</span> 
+                </a>
+                <ul class='lg:flex lg:gap-x-5 text-[20px]'>
+                    <li><a href='/src/index.html' class='hover:text-[#007bff] block font-bold'>Inicio</a></li>
+                    <li><a href='/src/experiencia/index.html' class='hover:text-[#007bff] block font-bold'>Experiencia</a></li>
+                    <li><a href='/src/proyectos/index.html' class='hover:text-[#007bff] block font-bold'>Proyectos</a></li>
+                    <li><a href='/src/contacto/index.html' class='hover:text-[#007bff] block font-bold'>Contacto</a></li>
+                </ul> 
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-grow ml-12 mr-12 mt-8">
+            <h1 class="text-3xl font-bold mb-8 text-center text-gray-700">Mis Proyectos</h1>
+        
+            <!-- Contenedor de proyectos -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Proyecto 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="../../img/Inicio BienesRaices.png" alt="Proyecto 1" class="w-full h-50 object-cover">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold mb-2 text-gray-800">Bienes Raíces</h2>
+                        <p class="text-gray-600 text-[15px] mb-4">Proyecto web full stack, permite administración de contenido
+                            relacionado a propiedades para que futuros compradores se pongan en contacto con el administrador del sitio web.
+                        </p>
+                        <a href="/src/proyectos/bienes_raices.html" class="text-blue-500 hover:text-blue-700 font-medium">
+                            Ver Proyecto <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Proyecto 2 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="../../img/Inicio AppSalon.png" alt="Proyecto 2" class="w-full h-50 object-cover">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold mb-2 text-gray-800">AppSalon</h2>
+                        <p class="text-gray-600 text-[15px] mb-4">Sitio web full stack, permite la administración de turnos de un establecimiento
+                            dedicado a la barbería, en el cual los clientes pueden separar sus turnos con los servicios que desean.
+                        </p>
+                        <a href="/src/proyectos/appsalon.html" class="text-blue-500 hover:text-blue-700 font-medium">
+                            Ver Proyecto <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Proyecto 3 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="../../img/Inicio UpTask.png" alt="Proyecto 3" class="w-full h-50 object-cover">
+                    <div class="p-6">
+                        <h2 class="text-xl font-semibold mb-2 text-gray-800">UpTask</h2>
+                        <p class="text-gray-600 text-[15px] mb-4">Sitio web full stack, permite la administración de tareas pendientes, que están en curso
+                            y ya completadas.
+                        </p>
+                        <a href="/src/proyectos/uptask.html" class="text-blue-500 hover:text-blue-700 font-medium">
+                            Ver Proyecto <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Repite este bloque para más proyectos -->
+            </div>
+        </main>
+        
+
+
+        <!-- Footer -->
+        <footer class="bg-white shadow dark:bg-gray-900 mt-4">
+            <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+                <div class="sm:flex sm:items-center sm:justify-between">
+                    <a href="/src/index.html" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white hover:underline">Mario Orozco</span>
+                    </a>
+                    <ul class="text-[17px] flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                        <li>
+                            <a href="mailto:mariodanielorozco@hotmail.com" target="_blank" class="hover:underline me-4 md:me-6">
+                                <i class="fa-solid fa-envelopes-bulk"></i>
+                                Correo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/MarioOrozcoM" target="_blank" class="hover:underline me-4 md:me-6">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/mario-daniel-orozco-mu%C3%B1oz-2a3320267/" target="_blank" class="hover:underline me-4 md:me-6">
+                                <i class="fa-brands fa-linkedin"></i>
+                                LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/573045838749?text=Hola,%20estoy%20interesad@%20en%20tus%20servicios%20de%20desarrollo%20web" target="_blank" class="hover:underline">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                Whatsapp
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                <span class="block text-[15px] text-gray-500 sm:text-center dark:text-gray-400">© 2025. All Rights Reserved.</span>
+            </div>
+        </footer>
+
+    <!-- Enlace al archivo de script -->
+    <script src="/src/js/app.js"></script>
+    
+</body>
+</html>

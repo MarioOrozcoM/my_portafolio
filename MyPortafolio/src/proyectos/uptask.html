@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Proyecto | UpTask</title>
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <!-- Header -->
+    <header class='shadow-md font-sans tracking-wide relative z-50'>
+        <div class='mt-7 ml-12 mr-12 flex flex-wrap items-center justify-between gap-4 px-10 py-4 bg-white min-h-[70px]'>
+            <a href="/src/index.html" class="flex items-center"> 
+                <img src="../../img/Foto Yo.jpg" alt="logo" class="w-10"> 
+                <span class="ml-2 text-[18px] font-bold">Mario Orozco</span> 
+            </a>
+            <ul class='lg:flex lg:gap-x-5 text-[20px]'>
+                <li><a href='/src/index.html' class='hover:text-[#007bff] block font-bold'>Inicio</a></li>
+                <li><a href='/src/experiencia/index.html' class='hover:text-[#007bff] block font-bold'>Experiencia</a></li>
+                <li><a href='/src/proyectos/index.html' class='hover:text-[#007bff] block font-bold'>Proyectos</a></li>
+                <li><a href='/src/contacto/index.html' class='hover:text-[#007bff] block font-bold'>Contacto</a></li>
+            </ul>            
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow ml-12 mr-12 mt-8">
+        <!-- Título del Proyecto -->
+        <section class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-gray-800">UpTask</h1>
+            <p class="text-lg text-gray-500 font-medium mt-2">Desarrollado con HTML, SASS, JS, PHP y MySQL</p>
+        </section>
+    
+        <!-- Imagen principal del proyecto -->
+        <section class="flex justify-center mb-8">
+            <img src="../../img/Inicio UpTask.png" alt="Bienes Raices" 
+                 class="w-full max-w-4xl h-auto rounded-lg shadow-lg">
+        </section>
+    
+        <!-- Descripción detallada del proyecto -->
+        <section class="max-w-4xl mx-auto mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Descripción del Proyecto</h2>
+            <p class="text-gray-600 leading-relaxed mb-4">
+                Este sitio web está desarrollado pensado en ser un administrador de tareas, en el cual el usuario crea sus proyectos, y dentro puede asignar diferentes
+                tareas que puede marcar como pendientes o completadas. Contiene autenticación de usuarios, recuperación de contraseña, administración de los proyectos
+                y tareas creadas.
+                Está desarrollado utilizando <strong>PHP</strong> y <strong>MySQL</strong> como backend, <strong>HTML, SASS</strong> y <strong>JS</strong> para el front.
+            </p>
+            <p class="text-gray-700 leading-relaxed">
+                Funcionalidades principales incluyen:
+                <ul class="list-disc list-inside mt-2">
+                    <li>Autenticación de usuarios; recuperación de contraseña</li>
+                    <li>Creación, edición, visualización y eliminación de los proyectos y tareas </li>
+                    <li>Marcación de tareas como pendientes o completadas</li>
+                    <li>Modo Oscuro</li>
+                </ul>
+            </p>
+        </section>
+    
+        <!-- Tecnologías utilizadas -->
+        <section class="max-w-4xl mx-auto mb-8">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Tecnologías Utilizadas</h2>
+            <div class="flex flex-wrap gap-4">
+                <span class="text-[16px] font-medium px-3 py-1 rounded-full shadow-sm">
+                    <i class="fa-brands fa-html5"></i>  HTML
+                </span>
+                <span class="text-[16px] font-medium px-3 py-1 rounded-full shadow-sm">
+                    <i class="fa-brands fa-sass"></i> SASS
+                </span>
+                <span class="text-[16px] font-medium px-3 py-1 rounded-full shadow-sm">
+                    <i class="fa-brands fa-js"></i> JS
+                </span>
+                <span class="text-[16px] font-medium px-3 py-1 rounded-full shadow-sm">
+                    <i class="fa-brands fa-php"></i> PHP
+                </span>
+                <span class="text-[16px] font-medium px-3 py-1 rounded-full shadow-sm">
+                    <i class="fa-solid fa-database"></i> MySQL
+                </span>
+            </div>
+        </section>
+    
+        <!-- Botones de navegación -->
+        <section class="text-center mt-8">
+            <a href="/src/proyectos/index.html" 
+               class="inline-block bg-gray-700 text-white px-6 py-2 rounded hover:bg-gray-900 transition">
+                ← Volver a Proyectos
+            </a>
+        </section>
+    </main>
+    
+
+        <!-- Footer -->
+        <footer class="bg-white shadow dark:bg-gray-900 mt-4">
+            <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+                <div class="sm:flex sm:items-center sm:justify-between">
+                    <a href="/src/index.html" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white hover:underline">Mario Orozco</span>
+                    </a>
+                    <ul class="text-[17px] flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                        <li>
+                            <a href="mailto:mariodanielorozco@hotmail.com" target="_blank" class="hover:underline me-4 md:me-6">
+                                <i class="fa-solid fa-envelopes-bulk"></i>
+                                Correo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/MarioOrozcoM" target="_blank" class="hover:underline me-4 md:me-6">
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/mario-daniel-orozco-mu%C3%B1oz-2a3320267/" target="_blank" class="hover:underline me-4 md:me-6">
+                                <i class="fa-brands fa-linkedin"></i>
+                                LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/573045838749?text=Hola,%20estoy%20interesad@%20en%20tus%20servicios%20de%20desarrollo%20web" target="_blank" class="hover:underline">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                Whatsapp
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                <span class="block text-[15px] text-gray-500 sm:text-center dark:text-gray-400">© 2025. All Rights Reserved.</span>
+            </div>
+        </footer>
+    
+</body>
+</html>
